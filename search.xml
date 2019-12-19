@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>hello</title>
+    <url>/2019/12/19/hello%20word/</url>
+    <content><![CDATA[<p>asljdhasgfiua</p>
+]]></content>
+  </entry>
+  <entry>
     <title>UIViewController的使用</title>
     <url>/2019/12/19/UIViewController%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<p>最近做阅读页的翻页效果的时候，大量的使用了<code>UIPageViewController</code>，这里记录一下，方便以后使用备忘。</p>
@@ -74,12 +80,6 @@
 <p>这个方法是在style是 <code>UIPageViewControllerTransitionStylePageCurl</code>并且横竖屏状态变化的时候触发,我们可以重新设置书脊的位置,比如如果屏幕是竖屏状态的时候我们就设置书脊位置是UIPageViewControllerSpineLocationMin或UIPageViewControllerSpineLocationMax, 如果屏幕是横屏状态的时候我们可以设置书脊位置是UIPageViewControllerSpineLocationMid</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">- (UIInterfaceOrientationMask)pageViewControllerSupportedInterfaceOrientations:(UIPageViewController *)pageViewController API_AVAILABLE(ios(7.0)) API_UNAVAILABLE(tvos);</span><br><span class="line">- (UIInterfaceOrientation)pageViewControllerPreferredInterfaceOrientationForPresentation:(UIPageViewController *)pageViewController API_AVAILABLE(ios(7.0)) API_UNAVAILABLE(tvos);</span><br></pre></td></tr></table></figure>
 <p>这两个方法设置了UIPageViewController支持的屏幕类型</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>hello</title>
-    <url>/2019/12/19/hello%20word/</url>
-    <content><![CDATA[<p>asljdhasgfiua</p>
 ]]></content>
   </entry>
 </search>
