@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>first </title>
+    <title>UIViewController的使用</title>
     <url>/2019/12/19/UIViewController%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<p>最近做阅读页的翻页效果的时候，大量的使用了<code>UIPageViewController</code>，这里记录一下，方便以后使用备忘。</p>
 <p>打开这个类的api,发现这个类还是比较简单的，主要是一个初始化方法，一个设置当前页面的方法，还有两个代理，其他的属性大部分都是只读属性，这些属性一般只能在初始化方法中设置。</p>
